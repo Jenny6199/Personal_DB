@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # external apps
     'rest_framework',
     # created apps
+    'photo_album.apps.PhotoAlbumConfig'
 
 ]
 

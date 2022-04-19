@@ -1,3 +1,9 @@
 from django.db import models
 
-# Create your models here.
+
+class Album(models.Model):
+    class Meta:
+        verbose_name = 'альбом'
+        verbose_name_plural = 'альбомы'
+
+    pass
